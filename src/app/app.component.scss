@@ -1,0 +1,17 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: lightseagreen;
+}

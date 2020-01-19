@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListComponent } from './components/list/list.component';
+import { DairiesComponent } from './components/dairies/dairies.component';
+import { FruitsAndVegetablesComponent } from './components/fruits-and-vegetables/fruits-and-vegetables.component';
+import { MeatAndEggsComponent } from './components/meat-and-eggs/meat-and-eggs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    DairiesComponent,
+    FruitsAndVegetablesComponent,
+    MeatAndEggsComponent,
   ],
   imports: [
     BrowserModule,
