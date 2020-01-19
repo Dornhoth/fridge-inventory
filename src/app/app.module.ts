@@ -7,6 +7,9 @@ import { ListComponent } from './components/list/list.component';
 import { DairiesComponent } from './components/dairies/dairies.component';
 import { FruitsAndVegetablesComponent } from './components/fruits-and-vegetables/fruits-and-vegetables.component';
 import { MeatAndEggsComponent } from './components/meat-and-eggs/meat-and-eggs.component';
+import { FooterButtonComponent } from './components/footer/footer.component';
+import { GroceryListComponent } from './components/grocery-list/grocery-list.component';
+import { OpenGroceryListButtonComponent } from './components/open-grocery-list-button/open-grocery-list-button.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { MeatAndEggsComponent } from './components/meat-and-eggs/meat-and-eggs.c
     DairiesComponent,
     FruitsAndVegetablesComponent,
     MeatAndEggsComponent,
+    FooterButtonComponent,
+    GroceryListComponent,
+    OpenGroceryListButtonComponent,
   ],
   imports: [
     BrowserModule,

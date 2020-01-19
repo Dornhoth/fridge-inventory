@@ -1,0 +1,2 @@
+<textarea (input)="saveList($event.target.value)">{{list}}</textarea>
+<button [routerLink]="['/', { outlets: { groceryList: null } }]">Close grocery list</button>
